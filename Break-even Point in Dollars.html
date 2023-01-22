@@ -79,7 +79,7 @@
         Break-even Point in Dollars
     </h1><br>
 <p>
-    <a href="home.html">
+    <a href="index.html">
         <Button type="button" class="button" style="color:black;">
             Home Page  
         </button>
@@ -110,7 +110,7 @@
     var input0 = document.getElementById("Unit_Price").value;
     var input2 = document.getElementById("VCPI").value;
     
-    var new_total2 = parseFloat(input1) / ((input0) - (input2)) * (input0);
+    var new_total2 = parseFloat((input1) / ((input0) - (input2)) * (input0));
     var Ro_new_total = Math.ceil(parseFloat((new_total2).toFixed(2)) / 100);
     window.alert("The break-even is: "+ Ro_new_total +" unit(s)\n");
     }
