@@ -8,73 +8,276 @@
 <title>
     Break-even Point
 </title>
-<body>
+
     <style>
-        .input {
-           padding: 10px;
-           margin: 10px 0; 
-           border: 0;
-           box-shadow:0 0 15px 4px rgba(255, 255, 255, 0.06);
-           border-radius:10px;
-           width:20%;
-           font-family: Verdana, Geneva, Tahoma, sans-serif;
-        }
-        .button {
-            height: 40px;
-            padding: 10;
-            background: rgb(255, 255, 255);
-            border: 3px;
-            border-color: white;
-            box-shadow:0 0 15px 4px rgba(255, 255, 255, 0.06);
-            outline: none;
-            border-radius: 10px;
-            overflow: hidden;
-            font-family: 'quicksand', sans-serif;
-            font-size: 18px;
-            font-weight: 500;
-            cursor: pointer;
-            width: 13%;
-        }
-        .button:hover {
-            background: #7a7a7a;
-        }
-        .button:active {
-            background: #252525;
-        }
-        .button__text{
-            padding: 0 24px;
-        }
-        body{
-            padding:1rem 2rem; background-color:rgb(41, 41, 41);
+            .input {
+                padding: 10px;
+                margin: 10px 0; 
+                border: 0;
+                box-shadow:0 0 15px 4px rgba(255, 255, 255, 0.06);
+                border-radius:10px;
+                width:20%;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+             }
+             .button {
+                 height: 40px;
+                 padding: 10;
+                 background: rgb(255, 255, 255);
+                 border: 3px;
+                 border-color: white;
+                 box-shadow:0 0 15px 4px rgba(255, 255, 255, 0.06);
+                 outline: none;
+                 border-radius: 10px;
+                 overflow: hidden;
+                 font-family: 'quicksand', sans-serif;
+                 font-size: 18px;
+                 font-weight: 500;
+                 cursor: pointer;
+                 width: 13%;
+             }
+             .button:hover {
+                 background: #7a7a7a;
+             }
+             .button:active {
+                 background: #252525;
+             }
+             .button__text{
+                 padding: 0 24px;
+             }
+             body{
+                 padding:1rem 2rem; background-color:rgb(41, 41, 41);
+             }
+            
+             .button2 {
+                 height: 40px;
+                 padding: 10;
+                 background: rgb(255, 255, 255);
+                 border: 3px;
+                 border-color: white;
+                 box-shadow:0 0 15px 4px rgba(255, 255, 255, 0.06);
+                 outline: none;
+                 border-radius: 10px;
+                 overflow: hidden;
+                 font-family: 'quicksand', sans-serif;
+                 font-size: 17px;
+                 font-weight: 500;
+                 cursor: pointer;
+                 width: 13%;
+             }
+             .button2:hover {
+                 background: #b86e00;
+             }
+             .button2:active {
+                 background: #252525;
+             }
+             .button2__text{
+                 padding: 0 24px;
+             }
+
+
+        @media screen and (max-width: 1370px){
+            .input {
+                padding: 10px;
+                margin: 10px 0; 
+                border: 0;
+                box-shadow:0 0 15px 4px rgba(255, 255, 255, 0.06);
+                border-radius:10px;
+                width:34%;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+             }
+             .button {
+                 height: 40px;
+                 padding: 10;
+                 background: rgb(255, 255, 255);
+                 border: 3px;
+                 border-color: white;
+                 box-shadow:0 0 15px 4px rgba(255, 255, 255, 0.06);
+                 outline: none;
+                 border-radius: 10px;
+                 overflow: hidden;
+                 font-family: 'quicksand', sans-serif;
+                 font-size: 18px;
+                 font-weight: 500;
+                 cursor: pointer;
+                 width: 20%;
+             }
+             .button:hover {
+                 background: #7a7a7a;
+             }
+             .button:active {
+                 background: #252525;
+             }
+             .button__text{
+                 padding: 0 24px;
+             }
+             body{
+                 padding:1rem 2rem; background-color:rgb(41, 41, 41);
+             }
+            
+             .button2 {
+                 height: 40px;
+                 padding: 10;
+                 background: rgb(255, 255, 255);
+                 border: 3px;
+                 border-color: white;
+                 box-shadow:0 0 15px 4px rgba(255, 255, 255, 0.06);
+                 outline: none;
+                 border-radius: 10px;
+                 overflow: hidden;
+                 font-family: 'quicksand', sans-serif;
+                 font-size: 17px;
+                 font-weight: 500;
+                 cursor: pointer;
+                 width: 20%;
+             }
+             .button2:hover {
+                 background: #b86e00;
+             }
+             .button2:active {
+                 background: #252525;
+             }
+             .button2__text{
+                 padding: 0 24px;
+             }
         }
 
-        .button2 {
-            height: 40px;
-            padding: 10;
-            background: rgb(255, 255, 255);
-            border: 3px;
-            border-color: white;
-            box-shadow:0 0 15px 4px rgba(255, 255, 255, 0.06);
-            outline: none;
-            border-radius: 10px;
-            overflow: hidden;
-            font-family: 'quicksand', sans-serif;
-            font-size: 18px;
-            font-weight: 500;
-            cursor: pointer;
-            width: 13%;
-        }
-        .button2:hover {
-            background: #b86e00;
-        }
-        .button2:active {
-            background: #252525;
-        }
-        .button2__text{
-            padding: 0 24px;
+        
+        @media screen and (max-width: 900px){
+            .input {
+                padding: 10px;
+                margin: 10px 0; 
+                border: 0;
+                box-shadow:0 0 15px 4px rgba(255, 255, 255, 0.06);
+                border-radius:10px;
+                width:57%;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+             }
+             .button {
+                 height: 40px;
+                 padding: 10;
+                 background: rgb(255, 255, 255);
+                 border: 3px;
+                 border-color: white;
+                 box-shadow:0 0 15px 4px rgba(255, 255, 255, 0.06);
+                 outline: none;
+                 border-radius: 10px;
+                 overflow: hidden;
+                 font-family: 'quicksand', sans-serif;
+                 font-size: 18px;
+                 font-weight: 500;
+                 cursor: pointer;
+                 width: 40%;
+             }
+             .button:hover {
+                 background: #7a7a7a;
+             }
+             .button:active {
+                 background: #252525;
+             }
+             .button__text{
+                 padding: 0 24px;
+             }
+             body{
+                 padding:1rem 2rem; background-color:rgb(41, 41, 41);
+             }
+            
+             .button2 {
+                 height: 40px;
+                 padding: 10;
+                 background: rgb(255, 255, 255);
+                 border: 3px;
+                 border-color: white;
+                 box-shadow:0 0 15px 4px rgba(255, 255, 255, 0.06);
+                 outline: none;
+                 border-radius: 10px;
+                 overflow: hidden;
+                 font-family: 'quicksand', sans-serif;
+                 font-size: 17px;
+                 font-weight: 500;
+                 cursor: pointer;
+                 width: 50%;
+             }
+             .button2:hover {
+                 background: #b86e00;
+             }
+             .button2:active {
+                 background: #252525;
+             }
+             .button2__text{
+                 padding: 0 24px;
+             }
         }
         
+        
+        @media screen and (max-width: 605px) {
+
+        .input {
+            padding: 10px;
+            margin: 10px 0; 
+            border: 0;
+            box-shadow:0 0 15px 4px rgba(255, 255, 255, 0.06);
+            border-radius:10px;
+            width:70%;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+         }
+         .button {
+             height: 40px;
+             padding: 10;
+             background: rgb(255, 255, 255);
+             border: 3px;
+             border-color: white;
+             box-shadow:0 0 15px 4px rgba(255, 255, 255, 0.06);
+             outline: none;
+             border-radius: 10px;
+             overflow: hidden;
+             font-family: 'quicksand', sans-serif;
+             font-size: 18px;
+             font-weight: 500;
+             cursor: pointer;
+             width: 50%;
+         }
+         .button:hover {
+             background: #7a7a7a;
+         }
+         .button:active {
+             background: #252525;
+         }
+         .button__text{
+             padding: 0 24px;
+         }
+         body{
+             padding:1rem 2rem; background-color:rgb(41, 41, 41);
+         }
+        
+         .button2 {
+             height: 40px;
+             padding: 10;
+             background: rgb(255, 255, 255);
+             border: 3px;
+             border-color: white;
+             box-shadow:0 0 15px 4px rgba(255, 255, 255, 0.06);
+             outline: none;
+             border-radius: 10px;
+             overflow: hidden;
+             font-family: 'quicksand', sans-serif;
+             font-size: 17px;
+             font-weight: 500;
+             cursor: pointer;
+             width: 50%;
+         }
+         .button2:hover {
+             background: #b86e00;
+         }
+         .button2:active {
+             background: #252525;
+         }
+         .button2__text{
+             padding: 0 24px;
+         }
+        }
     </style>
+    </head>
+<body>
     <h1 style="color:white; font-family: Verdana, Geneva, Tahoma, sans-serif;">
         Break-even Point</h1><br>
     <p>
@@ -119,8 +322,6 @@
         window.alert("The Break-even Point is: $"+ Ro_new_total);
         }
     </script>
-
 </body>
-</head>
 </center>
 </html>
